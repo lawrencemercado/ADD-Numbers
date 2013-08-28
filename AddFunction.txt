@@ -1,7 +1,7 @@
 public class Add
 {
 public static void main (String []args)
-	Scanner input = Scanner(System.in);
+	Scanner input = new Scanner(System.in);
 	int x,y,z =0;
 	System.out.print("Enter 1st number");
 	x = input.ReadInt();
@@ -10,5 +10,5 @@ public static void main (String []args)
 	z = x + y;
 	System.out.println("Sum is " + z);
 	
-
+	
 }
