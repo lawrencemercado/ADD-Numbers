@@ -1,0 +1,12 @@
+public class Add
+{
+public static void main (String []args)
+	Scanner input = Scanner(System.in);
+	int x,y,z =0;
+	System.out.print("Enter 1st number");
+	x = input.ReadInt();
+	System.out.print("Enter 2st number");
+	y = input.ReadInt();
+	
+
+}
