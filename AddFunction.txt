@@ -10,5 +10,5 @@ public static void main (String []args)
 	z = x + y;
 	System.out.println("Sum is " + z);
 	
-	
+	multiply();
 }
